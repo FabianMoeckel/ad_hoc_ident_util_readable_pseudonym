@@ -1,0 +1,16 @@
+name: ad_hoc_ident_util_readable_pseudonym
+description: "Maps the secure identifier of an AdHocIdentity to a human readable pseudonym as part of the ad_hoc_ident framework."
+version: 0.0.1-preview-1
+homepage: https://github.com/FabianMoeckel/ad_hoc_ident_util_readable_pseudonym
+repository: https://github.com/FabianMoeckel/ad_hoc_ident_util_readable_pseudonym
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  unique_names_generator: ^1.1.0
+  ad_hoc_ident: ^0.0.1-preview-1
+
+dev_dependencies:
+  lints: ^4.0.0
+  test: ^1.25.8
